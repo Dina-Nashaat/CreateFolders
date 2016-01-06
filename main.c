@@ -13,14 +13,15 @@ int main()
     int n=0;
     while(!feof(fp))
     {
-        fgets (string[n], 50, fp);
+        fgets (string[n], sizeof(string[n]), fp);
+        strtok(string[n], "\n");
         fscanf(fp,"\n");
         n++;
     }
     fclose (fp);
     for(i=0; i<n; i++)
     {
-        printf ("%s", string[i]);
+        printf ("%s\n", string[i]);
         CreateDirectory(string[i],NULL);
     }
 
