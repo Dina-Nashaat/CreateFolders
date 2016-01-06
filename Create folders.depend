@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1436021547 source:d:\dina\mstc\certificates\final certificate\create folders\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1436022273 source:d:\dina\extracurricular\mstc\certificates\final certificate\create folders\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
